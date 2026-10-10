@@ -1,3 +1,53 @@
+/*
+====================================================================
+PANDUAN PENGGUNAAN & INSTALASI
+====================================================================
+
+1. Instal AHK
+Buka Situs Resmi AHK:
+- Buka browser (Chrome/Edge/Firefox) dan kunjungi situs resminya di autohotkey.com.
+- Download AutoHotkey: Klik tombol Download, lalu pilih Download v terbaru, disini aku pakek v 1.1 (Deprecated/Legacy). 
+  (Sangat penting memilih v1.1, karena struktur kodingan yang kamu gunakan di atas dibuat khusus untuk AHK versi 1.1).
+Jalankan Installer:
+- Buka file installer yang baru saja diunduh (misalnya AutoHotkey_1.1.37.02_setup.exe).
+- Pilih opsi Express Installation.
+- Tunggu proses instalasi selesai, lalu klik Exit.
+
+2. Buat Skrip
+Buka Desktop / Folder Pilihan:
+- Masuk ke folder tempat kamu ingin menyimpan file skrip ini.
+Buat File Baru:
+- Klik kanan pada area kosong di folder/desktop.
+- Pilih New -> AutoHotkey Script.
+- Beri nama file tersebut, contohnya: AHunt.ahk (atau WaterBoss.ahk)
+Edit Skrip:
+- Klik kanan pada file skrip yang baru dibuat.
+- Pilih Edit Script (file akan terbuka di Notepad).
+- Hapus semua isi teks standar yang ada di Notepad tersebut.
+- Copy & Paste seluruh kodingan AHK ke dalam Notepad (di bawah komentar ini).
+- Simpan / Save (Ctrl + S).
+
+3. Running on Game
+- Buka Evomon, siapkan Tarragon dengan skill Seed Bomb dan FW2.
+- Klik 2 kali icon AHK script yang sudah dibuat.
+- Masuk ke game, arahkan karakter dekat boss dengan kursor di area bawah karakter.
+- Tekan F5 dan F6 untuk mengaktifkan kodingan. Kalau mau dimatikan tekan F6, dan untuk mematikan penuh tekan F5 2x.
+
+4. Catatan Boss:
+- Water Boss:
+  * Gunakan Tarragon dengan skill Seed Bomb dan FW2.
+  * Nyalakan auto.
+- Grass Boss:
+  * Gunakan Magmazor dengan skill Intimidation.
+- Catatan Penting:
+  * Harus max level 210 untuk Tarragon dan Magmazor.
+
+Good luck!
+====================================================================
+*/
+
+; --- KODINGAN AHK KAMU DIMULAI DI BAWAH INI ---
+
 ; ==============================================================================
 ; DIREKTIF & INISIALISASI VARIABEL
 ; ==============================================================================
@@ -8,7 +58,7 @@ SetBatchLines -1
  
 ; ------------------------------------------------------------------------------
 ; PENGATURAN INTERVAL WAKTU (Dalam Milidetik)
-; 1500 detik = 1,500,000 milidetik (ms)
+; 1500 detik = 1,500 milidetik (ms)
 ; Ubah angka ini jika ingin mengganti interval waktu perulangan!
 ; Contoh: 1000 = 1 detik, 60000 = 1 menit, 1500000 = 25 menit (1500 detik)
 ; ------------------------------------------------------------------------------
