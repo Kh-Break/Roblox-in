@@ -6,10 +6,10 @@ PANDUAN PENGGUNAAN & INSTALASI
 1. Instal AHK
 Buka Situs Resmi AHK:
 - Buka browser (Chrome/Edge/Firefox) dan kunjungi situs resminya di autohotkey.com.
-- Download AutoHotkey: Klik tombol Download, lalu pilih Download v terbaru, disini aku pakek v 1.1 (Deprecated/Legacy). 
-  (Sangat penting memilih v1.1, karena struktur kodingan yang kamu gunakan di atas dibuat khusus untuk AHK versi 1.1).
+- Download AutoHotkey: Klik tombol Download, lalu pilih Download v terbaru, disini aku pakek v 2.0.26 (Deprecated/Legacy). 
+  (Sangat penting memilih v1.1, karena struktur kodingan yang kamu gunakan di atas dibuat khusus untuk AHK versi 2.0.26).
 Jalankan Installer:
-- Buka file installer yang baru saja diunduh (misalnya AutoHotkey_1.1.37.02_setup.exe).
+- Buka file installer yang baru saja diunduh (misalnya AutoHotkey_2.0.26_setup.exe).
 - Pilih opsi Express Installation.
 - Tunggu proses instalasi selesai, lalu klik Exit.
 
